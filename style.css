@@ -23,30 +23,40 @@ section {
 h2,h3 {
     text-align: center;
 }
-homeimage {
-    display: flex;
-    justify-content: center;
-    flex-warp: warp;
-    gap: 10px;
-    margin-top: 20px;
+
+    .homeimage {
+        display: flex;
+        justify-content: center;
+       flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
 }
-.homeimage img {
-    width: 30%;
-    height: auto;
-    margin-bottom: 3%;
-}
-products {
-    display: flex;
-    justify-content: center;
-    flex-warp: warp;
-    gap: 10px;
-    margin-top: 20px;
-}
+    .homeimage img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 3%;
+    }
+    .products {
+        display: flex;
+        justify-content: center;
+  flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+        margin-top: 20px;
+    }
+    
+    .products img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 3%;
+    }
 
 .products img {
     width: 30%;
-    height: auto;
-    margin-bottom: 3%;
+    margin: 0 10px;
+    display: inline-flex;
+    justify-content: space-around;
+
 }
 .Directors {
     display: flex;
