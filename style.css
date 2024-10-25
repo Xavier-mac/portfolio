@@ -1,0 +1,71 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+h2,h3 {
+    text-align: center;
+}
+.homeimage img {
+    width: 30%;
+    margin: 0 10px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.products img {
+    width: 30%;
+    margin: 0 10px;
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.Directors {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    flex-wrap: wrap; /* Allows images to wrap if there's not enough space */
+    gap: 10px; /* Adds space between the images */
+    margin-top: 20px; /* Optional: adds space above the images */
+}
+.Directors img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 3%;
+}
+.imagl {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    padding-left: 0; /* Remove the left padding */
+    margin-top: 20px; /* Optional: adds space above the image */
+}
+.imagl img {
+    width: 80%; /* Adjust the width as needed */
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
