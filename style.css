@@ -23,19 +23,30 @@ section {
 h2,h3 {
     text-align: center;
 }
+homeimage {
+    display: flex;
+    justify-content: center;
+    flex-warp: warp;
+    gap: 10px;
+    margin-top: 20px;
+}
 .homeimage img {
     width: 30%;
-    margin: 0 10px;
-    display: inline-flex;
-    justify-content: space-around;
+    height: auto;
+    margin-bottom: 3%;
+}
+products {
+    display: flex;
+    justify-content: center;
+    flex-warp: warp;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .products img {
     width: 30%;
-    margin: 0 10px;
-    display: inline-flex;
-    justify-content: space-around;
-
+    height: auto;
+    margin-bottom: 3%;
 }
 .Directors {
     display: flex;
